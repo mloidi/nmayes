@@ -1,17 +1,27 @@
 import matter from 'gray-matter';
+import ReactMarkdown from 'react-markdown';
 
 import Layout from '@components/Layout';
-import PostList from '@components/PostList';
 
-const Index = ({ title, description, posts, ...props }) => {
+const Index = ({
+  title,
+  description,
+  siteTitle,
+  frontmatter,
+  markdownBody,
+  ...props
+}) => {
   return (
     <Layout pageTitle={title}>
-      <h1 className='title'>Welcome to my web!</h1>
-      <h2 className='title'>{title}</h2>
-      {/* <p className='description'>{description}</p>
-      <main>
-        <PostList posts={posts} />
-      </main> */}
+      <h1>Welcome to my web!</h1>
+      <div className='resume'>
+        <h2>{frontmatter.author}</h2>
+        <h2>ksdjbf sdkjfbk asdkjfblsdkf osadihf;sahdf osdfhlsjdkafn oasidfbn</h2>
+        <a href={`mailto:${frontmatter.email}`} target='_blank'>
+          {frontmatter.email}
+        </a>
+        <ReactMarkdown source={markdownBody} />
+      </div>
     </Layout>
   );
 };
@@ -20,28 +30,16 @@ export default Index;
 
 export async function getStaticProps() {
   const configData = await import(`../siteconfig.json`);
-  const posts = ((context) => {
-    const keys = context.keys();
-    const values = keys.map(context);
 
-    const data = keys.map((key, index) => {
-      let slug = key.replace(/^.*[\\\/]/, '').slice(0, -3);
-      const value = values[index];
-      const document = matter(value.default);
-      return {
-        frontmatter: document.data,
-        markdownBody: document.content,
-        slug,
-      };
-    });
-    return data;
-  })(require.context('../posts', true, /\.md$/));
+  const content = await import(`../posts/resume.md`);
+  const data = matter(content.default);
 
   return {
     props: {
-      posts,
       title: configData.default.title,
       description: configData.default.description,
+      frontmatter: data.data,
+      markdownBody: data.content,
     },
   };
 }

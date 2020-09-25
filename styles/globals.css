@@ -1,12 +1,12 @@
-@import 'header.css';
-@import 'post.css';
-@import 'about.css';
 @import 'footer.css';
-@import 'tags.css';
-@import 'back.css';
 
 :root {
   --main-bg-color: coral;
+  --background-color: #efefef;
+  --title-color: #a9a9a9;
+  --text-color: #a9a9a9;
+  --title-bg-color: #caebf2;
+  --icon-color: #ff3b3f;
   --main-tags-columns: 40;
 }
 
@@ -15,16 +15,46 @@ body {
   padding: 0;
   margin: 0;
   font-family: 'Grandstander', cursive;
+  background-color: var(--background-color);
+}
+
+.resume {
+  margin: 20px 40px 40px 20px;
+  display: grid;
+  grid-template-rows: auto;
+  align-content: center;
+  justify-content: center;
 }
 
 h1 {
-  color: coral;
+  color: var(--title-color);
   font-size: 4rem;
   text-align: center;
 }
 
 h2 {
-  color: coral;
+  width: fit-content;
+  color: var(--title-color);
+  background-color: var(--title-bg-color);
+  padding: 10px 40px;
   font-size: 2rem;
   text-align: center;
+  margin: 10px 0;
+  justify-self: center;
+}
+
+p {
+  color: var(--text-color);
+}
+
+a {
+  color: black;
+  width: fit-content;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+}
+
+a:hover {
+  color: var(--icon-color);
+  border-bottom: 1px solid var(--icon-color);
 }

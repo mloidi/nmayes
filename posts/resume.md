@@ -3,7 +3,6 @@ title: 'Resume'
 author: 'Nicole Jeannette Mayes'
 date: 10/09/2020
 email: nicole@nmayes.com
-tags: developer, jobs, react
 ---
 
 ## Education
