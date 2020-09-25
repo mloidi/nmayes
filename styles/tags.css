@@ -1,0 +1,23 @@
+.tags {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 100px);
+  grid-gap: 10px;
+}
+
+.tag {
+  border: 1px solid var(--main-bg-color);
+  padding: 5px;
+  border-radius: 5px;
+  cursor: default;
+  font-size: 0.8rem;
+  text-align: center;
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: start;
+}
+
+.tag-svg {
+  color: var(--main-bg-color);
+  margin-right: 5px;
+  width: 0.8rem !important;
+}

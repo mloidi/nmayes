@@ -1,0 +1,29 @@
+footer {
+  font-size: 0.8rem;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: start;
+  padding: 10px 10px;
+}
+
+@media only screen and (max-width: 768px) {
+  footer {
+    padding: 20px 10px;
+    background-color: white;
+  }
+}
+
+footer a {
+  color: inherit;
+  cursor: pointer;
+  margin-left: 2px;
+  padding: 5px;
+  text-decoration: underline;
+  text-decoration-color: var(--main-bg-color);
+}
+
+footer a:hover {
+  color: var(--main-bg-color);
+}

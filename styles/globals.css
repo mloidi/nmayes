@@ -1,16 +1,18 @@
+@import 'header.css';
+@import 'post.css';
+@import 'about.css';
+@import 'footer.css';
+@import 'tags.css';
+@import 'back.css';
+
+:root {
+  --main-bg-color: coral;
+  --main-tags-columns: 40;
+}
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-* {
-  box-sizing: border-box;
+  font-family: 'Grandstander', cursive;
 }

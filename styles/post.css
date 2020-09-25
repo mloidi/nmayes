@@ -1,0 +1,69 @@
+@media only screen and (max-width: 768px) {
+  article {
+    padding: 20px !important;
+    margin-bottom: 20px !important;
+  }
+}
+
+article {
+  padding: 0 25% 20px 25%;
+  margin-bottom: 60px;
+}
+
+article > .postHeader > h1 {
+  font-size: 4rem;
+  margin: 10px 0;
+  color: var(--main-bg-color);
+}
+
+.postHeader {
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--main-bg-color);
+}
+
+svg {
+  width: 0.9rem;
+}
+
+.post h2 {
+  font-size: 1.8rem;
+}
+
+.post blockquote {
+  border: 1px dashed lightgray;
+  background-color: #f5f5f5;
+  color: gray;
+  margin: 0;
+  padding: 10px 0;
+  font-style: italic;
+}
+
+.post blockquote p {
+  margin: 0;
+  padding: 0 10px;
+}
+
+.post > p {
+  display: inline-block;
+  padding: 10px 0;
+}
+
+.post > p > a {
+  cursor: pointer;
+  text-decoration-color: var(--main-bg-color);
+}
+
+.post > p > a:hover {
+  color: var(--main-bg-color) !important;
+}
+
+.post > p > a:visited {
+  color: black;
+}
+
+.post > p > img {
+  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
