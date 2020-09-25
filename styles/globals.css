@@ -16,3 +16,15 @@ body {
   margin: 0;
   font-family: 'Grandstander', cursive;
 }
+
+h1 {
+  color: coral;
+  font-size: 4rem;
+  text-align: center;
+}
+
+h2 {
+  color: coral;
+  font-size: 2rem;
+  text-align: center;
+}

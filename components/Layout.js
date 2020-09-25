@@ -1,6 +1,4 @@
 import Head from 'next/head';
-import Header from './Header';
-import Link from 'next/link';
 
 export default function Layout({ children, pageTitle, ...props }) {
   return (
@@ -13,7 +11,6 @@ export default function Layout({ children, pageTitle, ...props }) {
         />
         <title>{pageTitle}</title>
       </Head>
-      <Header />
       <section>
         <div>{children}</div>
       </section>
