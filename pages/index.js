@@ -28,9 +28,6 @@ export default Index;
 export async function getStaticProps() {
   const configData = await import(`../siteconfig.json`);
 
-  const content = await import(`../posts/resume.md`);
-  const data = matter(content.default);
-
   return {
     props: {
       title: configData.default.title,
