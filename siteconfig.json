@@ -1,4 +1,20 @@
 {
-  "title": "Nicole Jeannette",
-  "description": "This is my personal webpage"
+  "title": "Nicole Jeannette Mayes",
+  "description": "This is my personal webpage",
+  "education": [
+    {
+      "id":"1",
+      "location": "Universidad de Navarra",
+      "title": "Bachelor of Arts (B.A.), History",
+      "startYear": "2008",
+      "endYear": "2012"
+    },
+    {
+      "id":"2",
+      "location": "Universidad de Zaragoza",
+      "title": "Master's degree, Master en Museos: Educacion y COmunicacion",
+      "startYear": "2012",
+      "endYear": "2013"
+    }
+  ]
 }

@@ -1,12 +1,20 @@
+@import 'header.css';
+@import 'post.css';
+@import 'about.css';
 @import 'footer.css';
+@import 'tags.css';
+@import 'back.css';
+@import 'education.css';
 
 :root {
   --main-bg-color: coral;
-  --background-color: #efefef;
-  --title-color: #a9a9a9;
+  --background-color: #cae4db;
+  --title-color: #00303f;
   --text-color: #a9a9a9;
-  --title-bg-color: #caebf2;
-  --icon-color: #ff3b3f;
+  --title-bg-color: #dcae1d;
+  --icon-color: #7a9d96;
+  --menu-text-color:#00303f;
+  --menu-text-selected-color:#7a9d96;
   --main-tags-columns: 40;
 }
 

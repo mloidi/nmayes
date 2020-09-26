@@ -1,0 +1,9 @@
+.education {
+  margin: 10px 0;
+}
+
+.education > h2 {
+  background-color: transparent;
+  font-size: 1.5rem;
+  padding: 0;
+}

@@ -6,12 +6,13 @@ footer {
   width: 100%;
   text-align: start;
   padding: 10px 10px;
-  background-color: var(--main-back-color);
+  color: var(--menu-text-color);
 }
 
 @media only screen and (max-width: 768px) {
   footer {
     padding: 20px 10px;
+    background-color: var(--background-color);
   }
 }
 
@@ -21,10 +22,11 @@ footer a {
   margin-left: 2px;
   padding: 5px;
   text-decoration: underline;
-  text-decoration-color: var(--main-bg-color);
+  text-decoration-color: var(--menu-text-color);
+  font-weight: 900;
 }
 
 footer a:hover {
-  color: var(--main-bg-color);
+  color: var(--menu-text-selected-color);
   border: none;
 }

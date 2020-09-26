@@ -1,6 +1,9 @@
 import Head from 'next/head';
 
-export default function Layout({ children, pageTitle, ...props }) {
+import Header from '@components/Header';
+import Footer from './Footer';
+
+const Layout = ({ children, pageTitle, ...props }) => {
   return (
     <>
       <Head>
@@ -11,15 +14,13 @@ export default function Layout({ children, pageTitle, ...props }) {
         />
         <title>{pageTitle}</title>
       </Head>
+      <Header />
       <section>
         <div>{children}</div>
       </section>
-      <footer>
-        Built by
-        <a href='https://mloidi.com/' target='_blank'>
-          Mikel Loidi
-        </a>
-      </footer>
+      <Footer />
     </>
   );
-}
+};
+
+export default Layout;

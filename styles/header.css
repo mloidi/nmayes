@@ -1,32 +1,33 @@
 header {
   position: sticky;
   top: 0;
-  padding: 20px 10px;
 }
 
-@media only screen and (max-width: 768px) {
-  header {
-    /* background-color: white; */
-    display: none;
-  }
-}
-
-nav {
+header > nav {
   display: grid;
   grid-template-columns: auto auto;
   gap: 10px;
-  justify-content: start;
+  justify-content: end;
+  align-content: center;
+  height: 60px;
+  padding: 0 20px;
 }
 
-nav > a {
+header > nav > a {
   padding: 10px;
-  border: 1px solid black;
   text-align: center;
-  color: inherit;
+  color: var(--menu-text-color);
   text-decoration: none;
+  font-weight: 900;
+  text-transform: uppercase;
 }
 
-nav > a:hover {
-  color: blue;
-  text-decoration: underline;
+header > nav > a:hover {
+  color: var(--menu-text-selected-color);
+  border: none;
+}
+
+.active {
+  color: var(--menu-text-selected-color) !important;
+  border-bottom: 1px solid var(--menu-text-selected-color) !important;
 }
