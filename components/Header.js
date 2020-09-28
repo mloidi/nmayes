@@ -5,7 +5,9 @@ import { useRouter } from 'next/router';
 const Header = () => {
   const router = useRouter();
   const [menuOptions] = useState([
-    { path: '/', name: 'About' },
+    { path: '/', name: 'Home' },
+    { path: '/about', name: 'About Me' },
+    { path: '/resume', name: 'Resume' },
     { path: '/blog', name: 'Blog' },
   ]);
   return (

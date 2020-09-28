@@ -6,7 +6,7 @@ import PostList from '@components/PostList';
 const Blog = ({ posts, title, description, ...props }) => {
   return (
     <Layout pageTitle={title}>
-      <h1>Welcome to my blog!</h1>
+      <h1>Decoding Immigration</h1>
       <main>
         <PostList posts={posts} />
       </main>

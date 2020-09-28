@@ -6,9 +6,9 @@ header {
 
 header > nav {
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: repeat(4, auto);
   gap: 10px;
-  justify-content: end;
+  justify-content: start;
   align-content: center;
   height: 60px;
   padding: 0 20px;

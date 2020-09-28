@@ -1,14 +1,14 @@
 import Layout from '@components/Layout';
 
-const Index = ({ title }) => {
+const About = ({ title }) => {
   return (
     <Layout pageTitle={title}>
-      <h1>{title}</h1>
+      <h1>About</h1>
     </Layout>
   );
 };
 
-export default Index;
+export default About;
 
 export async function getStaticProps() {
   const configData = await import(`../siteconfig.json`);
