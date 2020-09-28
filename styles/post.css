@@ -1,24 +1,12 @@
-@media only screen and (max-width: 768px) {
-  article {
-    padding: 0 20px 20px 20px !important;
-    margin-bottom: 20px !important;
-  }
-}
-
-article {
-  padding: 0 25% 20px 25%;
-  margin-bottom: 60px;
-}
-
 article > .postHeader > h1 {
   font-size: 4rem;
   margin: 10px 0;
-  color: var(--main-bg-color);
+  color: var(--title-color);
 }
 
 .postHeader {
   padding-bottom: 10px;
-  border-bottom: 1px solid var(--main-bg-color);
+  border-bottom: 1px solid var(--title-color);
 }
 
 svg {
@@ -50,11 +38,11 @@ svg {
 
 .post > p > a {
   cursor: pointer;
-  text-decoration-color: var(--main-bg-color);
+  text-decoration-color: var(--title-color);
 }
 
 .post > p > a:hover {
-  color: var(--main-bg-color) !important;
+  color: var(--title-color) !important;
 }
 
 .post > p > a:visited {

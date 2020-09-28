@@ -3,7 +3,10 @@ import Layout from '@components/Layout';
 const About = ({ title }) => {
   return (
     <Layout pageTitle={title}>
+      <div className="about">
+
       <h1>About</h1>
+      </div>
     </Layout>
   );
 };

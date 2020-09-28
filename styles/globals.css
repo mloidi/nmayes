@@ -7,9 +7,10 @@
 @import 'education.css';
 @import 'profile.css';
 @import 'proffesionalExperience.css';
+@import 'print.css';
+@import 'resume.css';
 
 :root {
-  --main-bg-color: coral;
   --background-color: #cae4db;
   --title-color: #00303f;
   --text-color: #00303f;
@@ -24,16 +25,10 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: 'Grandstander', cursive;
+  font-family: 'Noto Sans JP', sans-serif;
+/* font-family: 'Roboto', sans-serif; */
   background-color: var(--background-color);
-}
-
-.resume {
-  margin: 20px 40px 40px 20px;
-  display: grid;
-  grid-template-rows: auto;
-  align-content: center;
-  justify-content: center;
+  cursor: default;
 }
 
 h1 {
@@ -70,13 +65,17 @@ a:hover {
 }
 
 @media only screen and (max-width: 768px) {
-  section {
+  .section {
     padding: 0 20px 20px 20px !important;
     margin-bottom: 20px !important;
   }
+
+  h1 {
+    font-size: 3rem;
+  }
 }
 
-section {
+.section {
   padding: 0 25% 20px 25%;
   margin-bottom: 60px;
 }

@@ -5,7 +5,7 @@
 }
 
 .tag {
-  border: 1px solid var(--main-bg-color);
+  border: 1px solid var(--title-color);
   padding: 5px;
   border-radius: 5px;
   cursor: default;
@@ -17,7 +17,7 @@
 }
 
 .tag-svg {
-  color: var(--main-bg-color);
+  color: var(--title-color);
   margin-right: 5px;
   width: 0.8rem !important;
 }

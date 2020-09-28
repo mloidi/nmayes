@@ -14,38 +14,51 @@
   "education": [
     {
       "id": "1",
-      "location": "University of Navarra",
+      "center": "University of Navarra",
       "title": "Bachelor of Arts in History",
-      "year": "2011"
+      "year": "2011",
+      "location": "Pamplona, Navarra, Spain"
     },
     {
       "id": "2",
-      "location": "University of Zaragoza",
+      "center": "University of Zaragoza",
       "title": "Master Degree in Communication and Museum Education",
-      "year": "2013"
+      "year": "2013",
+      "location": "Huesca, Aragon, Spain"
     },
     {
       "id": "3",
-      "location": "Los Alamitos Hihg School",
+      "center": "Los Alamitos High School",
       "title": "Diploma",
-      "year": "2007"
+      "year": "2007",
+      "location": " Los Alamitos, California, USA"
     }
   ],
   "skills": [
     {
       "id": "1",
       "type": "languages",
-      "skills": ["English (Native)", "Spanish (Proficient)"]
+      "skills": [
+        { "id": "1", "text": "English (Native)" },
+        { "id": "2", "text": "Spanish (Proficient)" }
+      ]
     },
     {
       "id": "2",
       "type": "Tech knowledge",
-      "skills": ["Microsoft Office Suite", "Google Suite", "Mailchimp"]
+      "skills": [
+        { "id": "1", "text": "Microsoft Office Suite" },
+        { "id": "2", "text": "Google Suite" },
+        { "id": "3", "text": "Mailchimp" }
+      ]
     },
     {
       "id": "3",
       "type": "Social Media Managment",
-      "skills": ["Instagram", "Facebook"]
+      "skills": [
+        { "id": "1", "text": "Instagram" },
+        { "id": "2", "text": "Facebook" }
+      ]
     }
   ],
   "proffesionalExperience": [

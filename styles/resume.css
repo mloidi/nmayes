@@ -1,0 +1,51 @@
+.resume {
+  display: grid;
+  /* grid-template-columns: auto auto; */
+
+  grid-template-areas:
+    'title title title'
+    'left right right'
+    'left right right';
+  /* align-content: start;
+  justify-content: center; */
+}
+
+.resume h1 {
+  color: var(--title-color);
+  font-size: 3rem;
+  text-align: start;
+  padding: 0;
+  /* margin: 10px 0; */
+}
+
+.resume  h2 {
+  background-color: transparent;
+  padding: 0;
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+
+.resume h3{
+  padding: 0;
+  margin: 0;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+
+.resume h4{
+  padding: 0;
+  margin: 0;
+}
+
+.title {
+  grid-area: title;
+}
+.left {
+  grid-area: left;
+  border-right: 5px solid black;
+  padding-right: 20px;
+  margin-right: 20px;
+}
+.right {
+  grid-area: right;
+}

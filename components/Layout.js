@@ -9,13 +9,13 @@ const Layout = ({ children, pageTitle, ...props }) => {
       <Head>
         <meta name='viewport' content='width=device-width, initial-scale=1' />
         <link
-          href='https://fonts.googleapis.com/css2?family=Grandstander:wght@100&family=Ranchers&display=swap'
+          href='https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&family=Roboto:wght@300&display=swap'
           rel='stylesheet'
         />
         <title>{pageTitle}</title>
       </Head>
       <Header />
-      <section className="section">
+      <section className='section'>
         <div>{children}</div>
       </section>
       <Footer />

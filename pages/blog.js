@@ -6,10 +6,12 @@ import PostList from '@components/PostList';
 const Blog = ({ posts, title, description, ...props }) => {
   return (
     <Layout pageTitle={title}>
-      <h1>Decoding Immigration</h1>
-      <main>
-        <PostList posts={posts} />
-      </main>
+      <div className='blog'>
+        <h1>Decoding Immigration</h1>
+        <main>
+          <PostList posts={posts} />
+        </main>
+      </div>
     </Layout>
   );
 };

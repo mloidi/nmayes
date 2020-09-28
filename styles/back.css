@@ -1,7 +1,12 @@
 .back {
   cursor: pointer;
-  color: var(--main-bg-color);
+  color: var(--title-color);
 }
+
+.back:hover {
+  border-bottom: none !important;
+}
+
 .backLink {
   position: sticky;
   top: 60px;
