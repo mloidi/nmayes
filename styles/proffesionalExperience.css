@@ -1,10 +1,14 @@
-.education {
+.proffesionalExperience {
   margin: 10px 0;
 }
 
-.education > h2 {
+.proffesionalExperience > h2 {
   background-color: transparent;
   font-size: 1.5rem;
   padding: 0;
   text-align: start !important;
+}
+
+.proffesionalExperience > ul > li {
+  margin: 10px 0;
 }

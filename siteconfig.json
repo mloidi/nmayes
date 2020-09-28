@@ -1,20 +1,119 @@
 {
-  "title": "Nicole Jeannette Mayes",
+  "title": "Nicole J. Mayes",
   "description": "This is my personal webpage",
-  "education": [
+  "profile": [
     {
-      "id":"1",
-      "location": "Universidad de Navarra",
-      "title": "Bachelor of Arts (B.A.), History",
-      "startYear": "2008",
-      "endYear": "2012"
+      "id": "1",
+      "text": "Proficient higher education administrator with 6+ years in the International Relations field. Specializing in European and US immigration law and cultural integration of students."
     },
     {
-      "id":"2",
-      "location": "Universidad de Zaragoza",
-      "title": "Master's degree, Master en Museos: Educacion y COmunicacion",
-      "startYear": "2012",
-      "endYear": "2013"
+      "id": "2",
+      "text": "Additionally, with a deep dedication to the enrichment of student experiences by fostering partnerships with international universities. Proven efficiency with an ability to quickly learn policy and procedure."
+    }
+  ],
+  "education": [
+    {
+      "id": "1",
+      "location": "University of Navarra",
+      "title": "Bachelor of Arts in History",
+      "year": "2011"
+    },
+    {
+      "id": "2",
+      "location": "University of Zaragoza",
+      "title": "Master Degree in Communication and Museum Education",
+      "year": "2013"
+    },
+    {
+      "id": "2",
+      "location": "Los Alamitos Hihg School",
+      "title": "Diploma",
+      "year": "2007"
+    }
+  ],
+  "skills": [
+    {
+      "id": "1",
+      "type": "languages",
+      "skills": ["English (Native)", "Spanish (Proficient)"]
+    },
+    {
+      "id": "2",
+      "type": "Tech knowledge",
+      "skills": ["Microsoft Office Suite", "Google Suite", "Mailchimp"]
+    },
+    {
+      "id": "3",
+      "type": "Social Media Managment",
+      "skills": ["Instagram", "Facebook"]
+    }
+  ],
+  "proffesionalExperience": [
+    {
+      "id": "1",
+      "role": "International Student Coordinator",
+      "company": "University of Navarra",
+      "start": "2013",
+      "end": "Present",
+      "location": "Pamplona, Navarra, Spain",
+      "responsability": [
+        {
+          "id": "1",
+          "text": "Organized and managed cultural integration activities/workshops; and new international student orientation week"
+        },
+        {
+          "id": "2",
+          "text": "Incoming and outgoing student immigration orientation complying with local and foreign immigration laws"
+        },
+        {
+          "id": "3",
+          "text": "Designed and coordinated the Buddy Program to help international student adaptation"
+        },
+        {
+          "id": "4",
+          "text": "Negotiated and executed partnership agreements with universities around the world in order to facilitate international student exchanges"
+        },
+        {
+          "id": "5",
+          "text": "Established administrative work procedures; trained and supervised student interns and volunteers"
+        },
+        {
+          "id": "6",
+          "text": "Developed policy and procedure guidelines for exchange of students, staff and faculty members"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "role": "Educational Program Development Intern",
+      "company": "Würth Museum",
+      "start": "2013",
+      "end": "2013",
+      "location": "Logroño, La Rioja, Spain",
+      "responsability": [
+        {
+          "id": "1",
+          "text": "Developed modern art education curriculum for children ages 9-11"
+        },
+        {
+          "id": "2",
+          "text": "Assisted in the planning and implementation of the museum’s summer events series for children and adults including the event “De Noche, El Museo Suena”"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "role": "English Teacher/Tutor",
+      "company": "Elduaien Language Academy",
+      "start": "2008",
+      "end": "2013",
+      "location": "Pamplona / San Sebastian, Spain",
+      "responsability": [
+        {
+          "id": "1",
+          "text": "Student preparation for First Certificate, TOEFL, IELTS and other English proficiency exams"
+        }
+      ]
     }
   ]
 }

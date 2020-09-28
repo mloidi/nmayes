@@ -2,20 +2,35 @@ import matter from 'gray-matter';
 
 import Layout from '@components/Layout';
 import Education from '@components/Education';
+import { Profile } from '@components/Profile';
+import { ProffesionalExperience } from '@components/ProffesionalExperience';
 
 const Index = ({
   title,
   description,
   siteTitle,
   education,
+  profile,
+  proffesionalExperience,
   ...props
 }) => {
   return (
     <Layout pageTitle={title}>
       <h1>{title}</h1>
       <div className='resume'>
+        <h2>Profile</h2>
+        {profile.map((prof) => (
+          <Profile key={prof.id} profile={prof} />
+        ))}
+        <h2>Professional Experience</h2>
+        {proffesionalExperience.map((profExp) => (
+          <ProffesionalExperience
+            key={profExp.id}
+            proffesionalExperience={profExp}
+          />
+        ))}
         <h2>Education</h2>
-        {education.map(edu => (
+        {education.map((edu) => (
           <Education key={edu.id} education={edu}></Education>
         ))}
       </div>
@@ -32,7 +47,9 @@ export async function getStaticProps() {
     props: {
       title: configData.default.title,
       description: configData.default.description,
-      education: configData.default.education
+      education: configData.default.education,
+      profile: configData.default.profile,
+      proffesionalExperience: configData.default.proffesionalExperience,
     },
   };
 }

@@ -15,7 +15,7 @@ const Layout = ({ children, pageTitle, ...props }) => {
         <title>{pageTitle}</title>
       </Head>
       <Header />
-      <section>
+      <section className="section">
         <div>{children}</div>
       </section>
       <Footer />

@@ -1,5 +1,5 @@
 export const resume = {
-  name: 'Nicole Jeannette Mayes',
+  name: 'Nicole J. Mayes',
   education: [
     {
       id:1

@@ -5,16 +5,18 @@
 @import 'tags.css';
 @import 'back.css';
 @import 'education.css';
+@import 'profile.css';
+@import 'proffesionalExperience.css';
 
 :root {
   --main-bg-color: coral;
   --background-color: #cae4db;
   --title-color: #00303f;
-  --text-color: #a9a9a9;
+  --text-color: #00303f;
   --title-bg-color: #dcae1d;
   --icon-color: #7a9d96;
-  --menu-text-color:#00303f;
-  --menu-text-selected-color:#7a9d96;
+  --menu-text-color: #00303f;
+  --menu-text-selected-color: #7a9d96;
   --main-tags-columns: 40;
 }
 
@@ -65,4 +67,16 @@ a {
 a:hover {
   color: var(--icon-color);
   border-bottom: 1px solid var(--icon-color);
+}
+
+@media only screen and (max-width: 768px) {
+  section {
+    padding: 0 20px 20px 20px !important;
+    margin-bottom: 20px !important;
+  }
+}
+
+section {
+  padding: 0 25% 20px 25%;
+  margin-bottom: 60px;
 }
