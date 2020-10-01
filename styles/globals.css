@@ -11,7 +11,7 @@
 @import 'resume.css';
 
 :root {
-  --background-color: #cae4db;
+  --background-color: #e1ece8;
   --title-color: #00303f;
   --text-color: #00303f;
   --title-bg-color: #dcae1d;
@@ -32,14 +32,12 @@ body {
 }
 
 h1 {
-  color: var(--title-color);
   font-size: 4rem;
   text-align: center;
 }
 
 h2 {
   width: fit-content;
-  color: var(--title-color);
   background-color: var(--title-bg-color);
   padding: 10px 40px;
   font-size: 2rem;
@@ -48,12 +46,15 @@ h2 {
   justify-self: center;
 }
 
-p {
+h1, h2 {
+  color: var(--title-color);
+}
+
+p, li, h1, h2, h3, h4, a, div {
   color: var(--text-color);
 }
 
-a {
-  color: black;
+a  {
   width: fit-content;
   text-decoration: none;
   border-bottom: 1px solid transparent;
@@ -76,6 +77,6 @@ a:hover {
 }
 
 .section {
-  padding: 0 25% 20px 25%;
+  padding: 0 15% 20px 15%;
   margin-bottom: 60px;
 }

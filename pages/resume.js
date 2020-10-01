@@ -6,12 +6,13 @@ import { Skills } from '@components/Skills';
 
 const Resume = ({
   title,
-  description,
-  siteTitle,
+  role,
+  email,
+  phone,
   education,
   profile,
   proffesionalExperience,
-  skills
+  skills,
 }) => {
   return (
     <Layout pageTitle={title}>
@@ -26,15 +27,25 @@ const Resume = ({
             Print
           </button>
           <h1>{title}</h1>
+          <h2>{role}</h2>
         </div>
         <div className='left'>
           <h2>Contact Details</h2>
-          <p>Email: nnn@mmm.com</p>
-          <p>Phone: (456) 256 2648</p>
+          <address>
+            <a
+              target='_blank'
+              rel='noopener noreferrer'
+              href={`mailto:${email}`}
+            >
+              {email}
+            </a>
+            <br />
+            <span>Phone: {phone}</span>
+          </address>
           <h2>Skills</h2>
-            {skills.map(skill=>(
-              <Skills key={skill.id} skill={skill}/>
-            ))}
+          {skills.map((skill) => (
+            <Skills key={skill.id} skill={skill} />
+          ))}
           <h2>Education</h2>
           {education.map((edu) => (
             <Education key={edu.id} education={edu}></Education>
@@ -66,11 +77,14 @@ export async function getStaticProps() {
   return {
     props: {
       title: configData.default.title,
+      role: configData.default.role,
+      email: configData.default.email,
+      phone: configData.default.phone,
       description: configData.default.description,
       education: configData.default.education,
       profile: configData.default.profile,
       proffesionalExperience: configData.default.proffesionalExperience,
-      skills: configData.default.skills
+      skills: configData.default.skills,
     },
   };
 }
