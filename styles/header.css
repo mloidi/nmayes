@@ -32,3 +32,10 @@ header > nav > a:hover {
   color: var(--menu-text-selected-color) !important;
   border-bottom: 1px solid var(--menu-text-selected-color) !important;
 }
+
+
+@media only screen and (max-width: 768px) {
+  header > nav > a {
+    font-size: 0.9rem;
+  }
+}
