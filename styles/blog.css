@@ -1,0 +1,51 @@
+.blogList {
+  /* padding: 10px; */
+  margin-bottom: 40px;
+  padding: 20px;
+  border: 1px solid var(--title-color);
+  /* border-radius: 10px; */
+  background-color: var(--background-color);
+  box-shadow: 5px 5px var(--menu-text-color);
+}
+
+.blogList > h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  padding: 0;
+  background-color: transparent;
+}
+
+.blogList  a {
+  /* font-size: 1.5rem; */
+  text-decoration: underline;
+  color: var(--title-color);
+  font-weight: 900;
+  border-bottom: none;
+  cursor: pointer;
+}
+
+.blogList  a:hover {
+  border-bottom: none;
+}
+
+.blogList > p > .blogDate {
+  margin: 0;
+}
+.blogList > p > .blogAuthor {
+  margin: 0;
+}
+
+.blogList > .tags > .tag {
+  border: none;
+  padding-right: 10px;
+  text-decoration: none;
+}
+.blogList > .tags > .tag:hover {
+  font-weight: bold;
+}
+
+.blogList > .coverImg {
+  width: 100%;
+  border: 1px solid var(--title-color);
+  /* border-radius: 10px; */
+}

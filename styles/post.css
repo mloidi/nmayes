@@ -1,7 +1,6 @@
 article > .postHeader > h1 {
   font-size: 4rem;
   margin: 10px 0;
-  color: var(--title-color);
 }
 
 .postHeader {

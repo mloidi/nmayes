@@ -12,6 +12,7 @@ header > nav {
   align-content: center;
   height: 60px;
   padding: 0 20px;
+  background-color: var(--background-color);
 }
 
 header > nav > a {
