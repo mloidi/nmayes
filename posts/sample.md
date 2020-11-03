@@ -1,8 +1,10 @@
 ---
 title: 'Sample post!'
-author: 'Mikel Loidi'
+coverImg: https://upload.wikimedia.org/wikipedia/commons/6/66/Louvre_Museum_Wikimedia_Commons.jpg
+description: 'Ulysses is one of the most popular writing and Markdown editor apps available for iPhone, iPad, and Mac. The iOS version of the app is about to get a major update with grammar and style check, which is already available in the Mac version.'
+author: 'Nicole J. Mayes'
 date: 13/09/2020
-tags: developer, jobs, react
+tags:  university, immigration
 ---
 
 This is my [personal webpage](https://mloidi.com), here you can find my resume and more info about me.

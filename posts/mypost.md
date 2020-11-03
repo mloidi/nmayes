@@ -1,5 +1,7 @@
 ---
 title: 'Hello, world!'
+coverImg: ''
+description: 'Yesterday Apple released the second iOS 14.2 beta to developers, and today it released iOS 14.2 beta 2 to public beta testers. Watch our brief hands-on video as we showcase new iOS 14.2 beta 2 changes and features.'
 author: 'Mikel Loidi'
 date: 10/09/2020
 tags: developer, jobs, react
