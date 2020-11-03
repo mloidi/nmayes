@@ -6,8 +6,8 @@ const Header = () => {
   const router = useRouter();
   const [menuOptions] = useState([
     { path: '/', name: 'Home' },
-    { path: '/about', name: 'About Me' },
-    { path: '/resume', name: 'Resume' },
+    // { path: '/about', name: 'About Me' },
+    // { path: '/resume', name: 'Resume' },
     { path: '/blog', name: 'Blog' },
   ]);
   return (
