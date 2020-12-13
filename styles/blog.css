@@ -3,9 +3,12 @@
   margin-bottom: 40px;
   padding: 20px;
   border: 1px solid var(--title-color);
-  /* border-radius: 10px; */
   background-color: var(--background-color);
   box-shadow: 5px 5px var(--menu-text-color);
+}
+
+.blogList:hover{
+  background-color: var(--title-bg-color);
 }
 
 .blogList > h2 {

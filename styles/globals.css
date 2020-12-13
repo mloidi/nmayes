@@ -28,13 +28,37 @@ body {
   margin: 0;
   font-family: 'Noto Sans JP', sans-serif;
   /* font-family: 'Roboto', sans-serif; */
-  background-color: var(--background-color);
+  /* background-color: var(--background-color); */
+  background-image: url(/patternpad.svg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  /* height: 100%; */
   cursor: default;
+  /* opacity: 0.2; */
 }
+
+/* .section:before {
+  content: ' ';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.1;
+  background-image: url(/patternpad.svg);
+  height: 100vw;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+} */
 
 h1 {
   font-size: 4rem;
+  /* text-align: center; */
+  /* background-color: var(--title-bg-color); */
+  padding: 10px 40px;
   text-align: center;
+  margin: 10px 0;
+  justify-self: center;
 }
 
 h2 {

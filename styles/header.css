@@ -2,6 +2,8 @@ header {
   position: sticky;
   top: 0;
   background-color: var(--background-color);
+
+  opacity: 1 !important;
 }
 
 header > nav {
@@ -12,10 +14,12 @@ header > nav {
   align-content: center;
   height: 60px;
   padding: 0 20px;
+  margin: 0;
   background-color: var(--background-color);
 }
 
 header > nav > a {
+  margin: 0;
   padding: 10px;
   text-align: center;
   color: var(--menu-text-color);
